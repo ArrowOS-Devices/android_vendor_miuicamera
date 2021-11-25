@@ -19,5 +19,5 @@ PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
     ro.miui.notch=1
 
 # Sepolicy
-BOARD_PLAT_PRIVATE_SEPOLICY_DIR += \
+SYSTEM_EXT_PRIVATE_SEPOLICY_DIRS += \
     vendor/miuicamera/sepolicy/private
